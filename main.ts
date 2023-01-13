@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("" + (led.brightness()))
+    basic.showString("Deepsy")
 })
 input.onButtonPressed(Button.B, function () {
     music.playMelody("C5 A B G A F G E ", 120)
