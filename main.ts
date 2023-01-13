@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showString("Hello!")
+    basic.showString("" + (led.brightness()))
 })
 input.onButtonPressed(Button.B, function () {
-    music.playTone(262, music.beat(BeatFraction.Whole))
+    music.playMelody("C5 A B G A F G E ", 120)
     basic.showIcon(IconNames.SmallHeart)
 })
 basic.showIcon(IconNames.Heart)
